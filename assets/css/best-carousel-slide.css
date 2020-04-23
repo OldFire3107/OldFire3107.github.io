@@ -68,3 +68,22 @@ span {
   font-weight: inherit;
 }
 
+@media (min-width: 625px) and (max-width:768px) {
+  #equation {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 625px) {
+  #equation {
+    max-width: 560px;
+  }
+}
+
+.nav-item {
+  padding-right: 10px;
+}
+
+.nav-item.dropdown {
+}
+

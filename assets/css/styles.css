@@ -1,0 +1,20 @@
+@media (min-width: 768px) {
+  .navbar.navbar-light.navbar-expand-md.navigation-clean {
+    height: 75px;
+  }
+}
+
+.part {
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.Pheno {
+  background: #282d32;
+}
+
+.description {
+  text-align: justify;
+}
+
