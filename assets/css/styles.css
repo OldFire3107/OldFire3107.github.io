@@ -18,3 +18,31 @@
   text-align: justify;
 }
 
+.div-evol {
+  padding: 25px 0;
+}
+
+.btn.btn-primary {
+  display: inline-block;
+}
+
+.col-md-6 {
+  text-align: center;
+}
+
+.btn.btn-primary {
+  color: #fff;
+  background-color: #000;
+}
+
+.cd-top.cd-top--show {
+  background-color: #000;
+  opacity: 75%;
+  z-index: 10;
+  border-radius: 100px;
+}
+
+.col-md-6 {
+  padding: 15px;
+}
+
