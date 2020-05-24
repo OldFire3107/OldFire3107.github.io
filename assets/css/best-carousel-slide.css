@@ -87,3 +87,8 @@ span {
 .nav-item.dropdown {
 }
 
+.part p {
+  padding: 20px 0;
+  color: #7d8285;
+}
+

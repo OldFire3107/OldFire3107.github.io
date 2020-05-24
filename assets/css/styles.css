@@ -46,3 +46,92 @@
   padding: 15px;
 }
 
+.nav-item {
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  display: inline-block;
+  padding-top: 19px;
+}
+
+.about p {
+  color: #7d8285;
+  text-align: center;
+  font-size: larger;
+  padding: 5px;
+  margin: auto;
+}
+
+.about {
+  padding: 40px;
+}
+
+.subhead {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fa.fa-address-card-o.icon {
+  color: #1685ee;
+  font-size: 40px;
+}
+
+.fa.fa-book.icon {
+  color: #1685ee;
+  font-size: 40px;
+}
+
+.cont .intro {
+  font-size: 16px;
+  max-width: 473px;
+  margin: 0 auto 60px;
+}
+
+@media (max-width:767px) {
+  .cont .intro {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width:767px) {
+  .cont h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.cont h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+.projects-clean {
+  margin-top: 30px;
+}
+
+.col-md-6 {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.buttons.bottomstuck {
+  position: absolute;
+  bottom: 5px;
+  padding: 5px;
+  width: 150px;
+  left: 50%;
+  margin-left: -75px;
+}
+
+.col-md-6 .intro {
+  margin-bottom: 75px;
+}
+
+.col-sm-6.col-lg-4.item h3 {
+  color: rgb(228,228,228);
+}
+
