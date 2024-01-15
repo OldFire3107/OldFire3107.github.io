@@ -3,6 +3,16 @@
 
 <head>
     <meta charset="utf-8">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+  MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{
+    cancel: ["Extension","cancel"],
+    bcancel: ["Extension","cancel"],
+    xcancel: ["Extension","cancel"],
+    cancelto: ["Extension","cancel"]
+  });
+});
+</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Agni Purani</title>
     <meta name="twitter:description" content="Agni, a budding physicist loves explaining phenomena that unravel the mysteries of the universe. His derivations and diaries revolve around principles and postulates in the domains of physics, mathematics and computing. Here, find this very phenomenon explained!">
@@ -67,7 +77,7 @@
                         <div class="dropdown-menu"><a class="dropdown-item" href="#dimensions">Dimensions</a><a class="dropdown-item" href="#evolution">Evolution</a></div>
                     </li>
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#" style="padding: 20px;" ondblclick="RedirectE();">The Explanation&nbsp;</a>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="#evidences">Evidences</a></div>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#evidences">Evidences</a><a class="dropdown-item" href="#experiments">Experiments</a></div>
                     </li>
                 </ul>
             </div>
@@ -121,11 +131,11 @@
                 </div>
                 <div class="col-sm-6 col-lg-4 item" style="padding-left: 15px;">
                     <h3 class="name" style="color: rgb(228,228,228);">\({\partial^2 \xi \over \partial t^2} = v^2 \nabla ^2 \xi\)</h3>
-                    <p class="description">Somehow this equation appears almost everywhere I seem to think - sound, light, water, slinky, etc. This is the wave equation.</p>
+                    <p class="description">Somehow, this equation appears almost everywhere I seem to think - sound, light, water, gravity, slinky, etc. This is the wave equation.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 item" style="padding-left: 15px;">
-                    <h3 class="name" style="color: rgb(228,228,228);">\(N = R^{*} \cdot f_{p} \cdot \eta_{e} \cdot f_{l} \cdot f_{i} \cdot f_{e} \cdot&nbsp; L\)&nbsp;</h3>
-                    <p class="description">The famous Drake equation makes me wonder where are the aliens hiding....</p>
+                    <h3 class="name" style="color: rgb(228,228,228);">\begin{align*}<br>&nbsp;&nbsp;\mathcal{L} &amp;= - \frac{1}{4} F_{\mu \nu} F^{\mu \nu} \\<br>&nbsp;&nbsp;&nbsp;&nbsp;&amp;+ i \bar{\psi} \gamma^\mu D_\mu\psi + h.c. \\<br>&nbsp;&nbsp;&nbsp;&nbsp;&amp;+ \bar{\psi}_i y_{ij} \psi_j \phi + h.c. \\<br>&nbsp;&nbsp;&nbsp;&nbsp;&amp;+ |D_\mu \phi|^2 - V(\phi)<br>&nbsp;&nbsp;\end{align*}</h3>
+                    <p class="description">The simplified Standard Model Lagrangian describes most of the interactions as processes in our Universe.</p>
                 </div>
             </div>
         </div>
